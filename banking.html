@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1>Let's Gets some Money</h1>
+    <div class="container text-white">
+        <div class="card-group">
+            <div class="card m-3 bg-secondary">
+                <div class="card-body">
+                    <h5 class="card-title">Deposite</h5>
+                    <h1 id="">$<span id="depositeId"> 00</span></h1>
+                </div>
+            </div>
+            <div class="card m-3 bg-dark">
+                <div class="card-body">
+                    <h5 class="card-title">Withdraw</h5>
+                    <h1 id="">$<span id="withdrawId"> 00</span></h1>
+                </div>
+            </div>
+            <div class="card m-3 bg-secondary">
+                <div class="card-body">
+                    <h5 class="card-title">Balance</h5>
+                    <h1 id="">$<span id="balanceId"> 00</span></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card-group">
+            <div class="card m-3 bg-danger">
+                <div class="card-body">
+                    <h5 class="card-title text-white text-center">Add Money</h5>
+                    <input type="text" name="" id="depositeInputId" placeholder="amount" class="w-100">
+                </div>
+                <button class="m-1 w-50 mx-auto" id="depositeBtnId">Deposite</button>
+            </div>
+            <div class="card m-3 bg-success">
+                <div class="card-body">
+                    <h5 class="card-title text-white text-center">Withdraw Money</h5>
+                    <input type="text" name="" id="withdrawInputId" placeholder="amount" class="w-100">
+                </div>
+                <button class="m-1 w-50 mx-auto" id="withdrawBtnId">Withdraw</button>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="events-two.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
